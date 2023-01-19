@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Reenie+Beanie&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #24272c;
+}
+
+.container {
+  /* border: 2px solid gainsboro; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+h1 {
+  /* border: 2px solid red; */
+  width: fit-content;
+  color: #e9eaf0;
+  font-family: "Reenie Beanie", cursive;
+  font-size: 3em;
+  font-weight: 100;
+}
+
+h2 {
+  /* border: 2px solid red; */
+  /* width: fit-content; */
+  color: #e9eaf0;
+  font-size: 1.05em;
+  font-family: "Josefin sans", cursive;
+  font-weight: 300;
+  margin-top: 0.25em;
+  text-align: right;
+}
+
+h3 {
+  /* border: 2px solid red; */
+  /* width: fit-content; */
+  color: #e9eaf0;
+  font-size: 1.05em;
+  font-family: "Josefin sans", cursive;
+  font-weight: 300;
+  margin-top: 1em;
+  text-align: left;
+}
+
+.heading {
+  border-radius: 2em;
+  /* border: 2px solid red; */
+  padding: 2em;
+  box-shadow: -10px -10px 20px 1px rgb(233, 234, 240, 0.02),
+    10px 10px 20px 1px rgb(0, 0, 0, 0.25);
+}
+
+.menu {
+  width: 100px;
+}
+
+.menuList {
+  /* border: 2px solid red; */
+  line-height: 1.15em;
+  width: max-content;
+  border-radius: 5px;
+  font-family: "Josefin sans", sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  letter-spacing: 0.05rem;
+  color: #e9eaf0;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: none;
+  gap: 0.5rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  margin-top: 1em;
+  border-radius: 5em;
+  font-size: 1.25rem;
+  font-family: "Josefin sans", sans-serif;
+  color: #e9eaf0;
+  width: 3.05rem;
+  height: 4rem;
+  text-align: center;
+  background-color: #24272c;
+  box-shadow: -10px -10px 20px 1px rgb(233, 234, 240, 0.02),
+    10px 10px 20px 1px rgb(0, 0, 0, 0.25);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button {
+  border: 1px solid #e9eaf0;
+  display: inline-block;
+  outline: none;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  font-family: "Reenie Beanie", cursive;
+  color: #e9eaf0;
+  width: 6rem;
+  height: 1.75rem;
+  background-color: #24272c;
+  opacity: 0.5;
+  box-shadow: none;
+  transition: 500ms;
+  padding-top: 0.2rem;
+}
